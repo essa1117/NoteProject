@@ -157,9 +157,10 @@ body{
     cursor: pointer;
     background-color: white;
     
+    
 }
 .note:hover{
-    scale: 1.03;
+    scale: 1.015;
 }
 .note i{
     display: flex;
@@ -199,10 +200,13 @@ body{
 .note p{
     font-size: 14px;
     min-width: 60%;
+    max-height: 80%;
     position: relative;
     padding: 3px;
     min-height: 90%;
     z-index: 1;
+    display: block;
+    word-wrap: normal
 }
 .app .selected{
     position: fixed;
