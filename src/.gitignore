@@ -1,0 +1,10 @@
+# Ignore node_modules and logs
+node_modules/
+*.log
+
+# Optional: ignore TypeScript source maps
+*.js.map
+
+# DO NOT ignore compiled JS — you want recruiters to see the result!
+# dist/  ← make sure this line is removed or commented out
+# *.js   ← remove if you're compiling to JS and want to share
